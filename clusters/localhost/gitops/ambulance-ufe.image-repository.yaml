@@ -4,5 +4,5 @@ metadata:
   name: ambulance-ufe
   namespace: wac-hospital
 spec:
-  image: JohnZeki/ambulance-ufe
+  image: johnzeki/ambulance-ufe
   interval: 1m0s
