@@ -4,7 +4,11 @@ metadata:
   name: mjc-ambulance-ufe-content
 spec:
   microFrontend: mjc-ambulance-ufe
-  element: mjc-ambulance-wl-list
+  # aplication context element
+  element: mjc-ambulance-wl-app
+  attributes:
+    - name: base-path
+      value: /mjc-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content
